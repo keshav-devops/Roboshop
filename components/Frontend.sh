@@ -2,7 +2,7 @@
 
 USER_ID=$(id -u)
 
-if ["user_id" -ne 0 ]; then
+if ["user_id" -ne "0" ]; then
   echo You are supposed to be running this as sudo
   else
 
